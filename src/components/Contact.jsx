@@ -9,7 +9,7 @@ const Contact = () => {
     const [selectedDate, setSelectedDate] = useState(null)
 
     return (
-    <div  name='Contact' className='mt-5 h-screen px-8 py-8  bg-gradient-to-r from-indigo-500
+    <div  name='Contact' className='mt-5 md:h-screen px-8 py-8  bg-gradient-to-r from-indigo-500
     to-indigo-900 w-full grid items-center md:grid-cols-3 gap-3'>
             <div className='md:col-span-2'>
             <h1 className='text-2xl font-bold text-white'>Beyond Care</h1>
